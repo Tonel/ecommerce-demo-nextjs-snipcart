@@ -30,9 +30,9 @@ export default function Home() {
             </main>
             <div
                 id="snipcart"
-                data-api-key="NWMwZWNkZGMtZjU2ZS00YzM3LWFlZjYtMmM5Zjk0MWViZDcxNjM3Njg0OTY0ODg5NTk4MTM3"
-                hidden
-            />
+                data-api-key="NWMwZWNkZGMtZjU2ZS00YzM3LWFlZjYtMmM5Zjk0MWViZDcxNjM3Njg0OTY0ODg5NTk4MTM3" hidden
+            >
+            </div>
             <script
                 src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
                 async

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t-shirt",
+    "name": "T-Shirt",
+    "price": 35.00,
+    "imageUrl": "https://source.unsplash.com/WWesmHEgXDs/640x640",
+    "description": "A white t-shirt",
+    "url": "/api/products/halfmoon"
+  },
+  {
+    "id": "wallet",
+    "name": "Wallet",
+    "price": 20.00,
+    "imageUrl": "https://source.unsplash.com/9Huby3g9fN0/640x640",
+    "description": "A fancy wallet",
+    "url": "/api/products/wallet"
+  },
+  {
+    "id": "cup",
+    "name": "Cup",
+    "price": 5.00,
+    "imageUrl": "https://source.unsplash.com/he_xuL-CyyI/640x640",
+    "description": "A tea cup",
+    "url": "/api/products/veiltail"
+  }
+]

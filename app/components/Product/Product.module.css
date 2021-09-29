@@ -1,0 +1,35 @@
+.product {
+    margin: 1%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    width: 28%;
+    border-radius: 5px;
+}
+
+.product:hover {
+    border-color: #ff593d;
+}
+
+.product p {
+    min-height: 25px;
+}
+
+.product span {
+    font-weight: bold;
+}
+
+.product button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.product button:hover {
+    color: white;
+    background-color: #ff593d;
+    border: 1px solid #ff593d;
+    cursor: pointer;
+}

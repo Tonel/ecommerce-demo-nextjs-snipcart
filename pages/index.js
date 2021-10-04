@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/Link";
 import styles from "../styles/Home.module.css";
 import products from "../app/assets/products.json";
 import Product from "../app/components/Product/Product";
@@ -29,6 +30,9 @@ export default function Home() {
             <Product {...product} key={i} />
           ))}
         </div>
+        <Link as="dato" href="/dato">
+          <a className={styles.cta}>See it on Dato ⟶</a>
+        </Link>
       </main>
 
       <div

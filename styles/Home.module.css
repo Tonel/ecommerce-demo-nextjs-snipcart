@@ -29,6 +29,13 @@
   margin-top: 3rem;
 }
 
+.cta {
+  margin-top: 3rem;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
 @media (max-width: 400px) {
   .grid {
     width: 100%;

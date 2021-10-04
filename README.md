@@ -22,6 +22,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Create a `.env` file by copying the `.env.sample` file, and add your Snipcart API key that you get after registration.
 
+## Adding DatoCMS
+
+In the `.env` file, add your Read-only DatoCMS API key that you can get from the admin area in your DatoCMS project.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

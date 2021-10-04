@@ -30,9 +30,11 @@ export default function Home() {
             <Product {...product} key={i} />
           ))}
         </div>
-        <Link as="dato" href="/dato">
-          <a className={styles.cta}>See it on Dato ⟶</a>
-        </Link>
+        {process.env.NEXT_PUBLIC_DATOCMS_READONLY_TOKEN && (
+          <Link as="dato" href="/dato">
+            <a className={styles.cta}>See it on Dato ⟶</a>
+          </Link>
+        )}
       </main>
 
       <div

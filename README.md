@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js ecommerce template](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Here is what the result looks like
+
+![Ecommerce next.js preview](https://www.datocms-assets.com/205/1633080163-datocms-docs-2021-10-01-at-11-22-22.png?fm=webp&w=950)
 
 ## Getting Started
 

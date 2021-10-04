@@ -30,9 +30,10 @@ export default function Home() {
           ))}
         </div>
       </main>
+
       <div
         id="snipcart"
-        data-api-key="NWMwZWNkZGMtZjU2ZS00YzM3LWFlZjYtMmM5Zjk0MWViZDcxNjM3Njg0OTY0ODg5NTk4MTM3"
+        data-api-key={process.env.NEXT_PUBLIC_SNIPCART_API_KEY}
         hidden
       ></div>
     </div>

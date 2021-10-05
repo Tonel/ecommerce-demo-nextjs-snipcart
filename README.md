@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js ecommerce template](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Here is what the result looks like
+
+![Ecommerce next.js preview](https://www.datocms-assets.com/205/1633080163-datocms-docs-2021-10-01-at-11-22-22.png?fm=webp&w=950)
 
 ## Getting Started
 
@@ -17,6 +21,14 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Adding Snipcart
+
+Create a `.env` file by copying the `.env.sample` file, and add your Snipcart API key that you get after registration.
+
+## Adding DatoCMS
+
+In the `.env` file, add your Read-only DatoCMS API key that you can get from the admin area in your DatoCMS project.
 
 ## Learn More
 

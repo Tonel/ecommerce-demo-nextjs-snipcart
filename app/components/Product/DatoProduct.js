@@ -1,12 +1,12 @@
 import styles from "./Product.module.css";
-import Image from "next/image";
+import { Image } from "react-datocms";
 
-export default function Product(props) {
-  const { id, imageUrl, name, description, price } = props;
+export default function DatoProduct(product) {
+  const { id, image, name, description, price } = product;
 
   return (
     <div key={id} className={styles.product}>
-      <Image src={imageUrl} alt={`Image of ${name}`} height={640} width={640} />
+      <Image data={image.responsiveImage} />
       <h3>{name}</h3>
       <p>{description}</p>
       <span>${price}</span>
@@ -14,7 +14,7 @@ export default function Product(props) {
         <button
           className="snipcart-add-item"
           data-item-id={id}
-          data-item-image={imageUrl}
+          data-item-image={image.url}
           data-item-name={name}
           data-item-url="/"
           data-item-price={price}
